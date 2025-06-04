@@ -11,7 +11,7 @@ export const AppContextProvider = (props) => {
   const currency = '$';
   const delivery_fee = 10;
 
-  const backendUrl = import.meta.env.VITE_BACKEND_URL || "https://wear4uclothing.onrender.com";
+  const backendUrl = import.meta.env.VITE_BACKEND_URL || "http://localhost:4000";
   const [isLoggedin, setIsLoggedin] = useState(false);
   const [userData, setUserData] = useState(false);
   const [products, setProducts] = useState([]);
