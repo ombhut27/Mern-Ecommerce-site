@@ -1,6 +1,6 @@
 import { useState, useContext, useEffect } from "react";
 import { AppContent } from "../../context/AppContext";
-import ProductCard from "./ProductCard";
+import ProductCard from "./Productcard";
 
 const TrendingProduct = () => {
   const { products } = useContext(AppContent);
