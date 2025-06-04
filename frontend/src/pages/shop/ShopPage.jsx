@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState } from "react";
-import ProductCard from "./ProductCard";
+import ProductCard from "./Productcard";
 import { AppContent } from "../../context/AppContext";
 import ShopFiltering from "./ShopFiltering";
 import Pagination from "../../components/Pagination";
