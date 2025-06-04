@@ -11,7 +11,7 @@ const BlogSection = () => {
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
-        const response = await axios.get("http://localhost:4000/api/blog/list");
+        const response = await axios.get("https://wear4uclothing.onrender.com/api/blog/list");
         setBlogs(response.data.blogs);
       } catch (error) {
         console.error("Error fetching blogs:", error);
