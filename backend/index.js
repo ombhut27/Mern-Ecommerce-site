@@ -18,7 +18,7 @@ const port = process.env.PORT || 4000
 connectDB();
 connectCloudinary()
 
-const allowedOrigins = ['https://wear4uclothing-frontend.onrender.com','http://localhost:5174'];
+const allowedOrigins = ['http://localhost:5173','http://localhost:5174'];
 
 app.use(express.json());
 app.use(cookieParser());
