@@ -1,7 +1,7 @@
 import { useContext, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { AppContent } from "../../context/AppContext";
-import ProductCard from "../shop/ProductCard";
+import ProductCard from "../shop/Productcard";
 
 const CategoryPage = () => {
   const { categoryName } = useParams();
