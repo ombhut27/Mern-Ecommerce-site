@@ -177,7 +177,7 @@ const getCartAmount = () => {
 
 const getAuthState = async () => {
     try {
-      const { data } = await axios.get(backendUrl + '/api/auth/is-auth',, { headers: { token } });
+      const { data } = await axios.get(backendUrl + '/api/auth/is-auth');
       if (data.success) {
         setIsLoggedin(true);
       }
@@ -188,7 +188,7 @@ const getAuthState = async () => {
 
   const getUserData = async () => {
     try {
-      const { data } = await axios.get(backendUrl + '/api/user/data',, { headers: { token } });
+      const { data } = await axios.get(backendUrl + '/api/user/data');
       data.success ? setUserData(data.userData) : toast.error(data.message);
     } catch (error) {
       toast.error(error.message);
