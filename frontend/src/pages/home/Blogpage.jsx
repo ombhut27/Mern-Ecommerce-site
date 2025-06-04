@@ -10,7 +10,7 @@ const BlogPage = () => {
     useEffect(() => {
         const fetchBlog = async () => {
             try {
-                const response = await fetch(`http://localhost:4000/api/blog/single/${blogId}`);
+                const response = await fetch(`https://wear4uclothing.onrender.com/api/blog/single/${blogId}`);
                 const data = await response.json();
 
                 if (data.success) {
