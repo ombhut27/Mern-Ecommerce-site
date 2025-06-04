@@ -15,7 +15,7 @@ import PlaceOrder from './pages/shop/PlaceOrder';
 import Orders from './pages/shop/Orders';
 import About from './pages/About';
 import Contact from './pages/Contact';
-import Wishlist from './pages/shop/wishlist';
+import Wishlist from './pages/shop/Wishlist';
 import BlogPage from './pages/home/Blogpage';
 
 
