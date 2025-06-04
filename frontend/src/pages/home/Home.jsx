@@ -3,7 +3,7 @@ import Banner from "../home/Banner";
 import Category from "./Catagory";
 import Trendingproduct from "../shop/Trendingproduct";
 import Collection from "./Collection";
-import Social from "./social";
+import Social from "./Social";
 import BlogSection from "./BlogSection";
 
 
